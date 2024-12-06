@@ -14,5 +14,7 @@ namespace SkillProfiCRM.Data
         public DbSet<Service> Services { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<BlogPost> BlogPosts { get; set; }
+        public DbSet<HomePageBlock> HomePageBlocks { get; set; }
+        public DbSet<MenuButton> MenuButtons { get; set; }
     }
 }
